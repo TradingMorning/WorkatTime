@@ -1,4 +1,4 @@
-api/v1/[[...path]]import { NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 import { GoogleGenAI } from '@google/genai';
