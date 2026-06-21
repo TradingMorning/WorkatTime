@@ -34,9 +34,9 @@ export const Markets = () => {
 
   useEffect(() => {
     setSeo({
-  title: `${fetchedInd.name} — Review, Parameters, and Audits | FalconSpido`,
-  description: fetchedInd.description || `${fetchedInd.name} reviews, parameters, and trust score on FalconSpido.`,
-  path: `/indicators/${fetchedInd.slug}`
+  title: 'Real-time Markets Hub & Relative Volatility Index | FalconSpido',
+  description: 'Analyze real-time price feeds, trending volume pairs, and top gainers across Crypto, Forex, and global Stock sectors.',
+  path: '/markets'
 });
     
     const fetchMarketData = async () => {
