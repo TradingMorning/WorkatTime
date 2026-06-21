@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Detect host environment
 const API = axios.create({
-  baseURL: '/api/v1',
+  baseURL: 'http://localhost:5000',
   headers: {
     'Content-Type': 'application/json'
   }
