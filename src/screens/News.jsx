@@ -22,9 +22,9 @@ export const News = () => {
 
   useEffect(() => {
     setSeo({
-  title: `${fetchedInd.name} — Review, Parameters, and Audits | FalconSpido`,
-  description: fetchedInd.description || `${fetchedInd.name} reviews, parameters, and trust score on FalconSpido.`,
-  path: `/indicators/${fetchedInd.slug}`
+  title: 'Algorithmic Trading Insights & Sentiment Aggregator | FalconSpido',
+  description: 'Access fresh market analysis, central bank briefings, and strategic macro guides compiled for modern quant traders.',
+  path: '/news'
 });
 
     const fetchNewsArticles = async () => {
