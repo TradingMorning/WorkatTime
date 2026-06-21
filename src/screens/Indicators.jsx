@@ -41,9 +41,9 @@ export const Indicators = () => {
   useEffect(() => {
     // Elegant doc titles
     setSeo({
-  title: `${fetchedInd.name} — Review, Parameters, and Audits | FalconSpido`,
-  description: fetchedInd.description || `${fetchedInd.name} reviews, parameters, and trust score on FalconSpido.`,
-  path: `/indicators/${fetchedInd.slug}`
+  title: 'Audited Pine Scripts & Trading Indicators Directory | FalconSpido',
+  description: 'Explore verified, open-source technical indicators and expert advisor trading systems with full drawdown backtests.',
+  path: '/indicators'
 });
 
     const fetchIndicatorsList = async () => {
