@@ -20,9 +20,9 @@ export const Compare = () => {
 
   useEffect(() => {
     setSeo({
-  title: `${fetchedInd.name} — Review, Parameters, and Audits | FalconSpido`,
-  description: fetchedInd.description || `${fetchedInd.name} reviews, parameters, and trust score on FalconSpido.`,
-  path: `/indicators/${fetchedInd.slug}`
+  title: 'Compare Trading Strategies & Indicators side-by-side | FalconSpido',
+  description: 'Auditing dual Pine Scripts, relative drawdowns, win-rates, and profit metrics in a unified comparison interface.',
+  path: '/compare'
 });
   }, []);
 
