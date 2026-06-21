@@ -87,9 +87,9 @@ export const Strategy = () => {
 
   useEffect(() => {
     setSeo({
-  title: `${fetchedInd.name} — Review, Parameters, and Audits | FalconSpido`,
-  description: fetchedInd.description || `${fetchedInd.name} reviews, parameters, and trust score on FalconSpido.`,
-  path: `/indicators/${fetchedInd.slug}`
+  title: 'Verified Trading Strategies & Backtesting Sandbox | FalconSpido',
+  description: 'Review mathematically validated Pine Script strategies and cTrader bots with transparent backtest sheets.',
+  path: '/strategy'
 });
     
     // Fetch initial symbols list from live prices
