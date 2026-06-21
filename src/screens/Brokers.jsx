@@ -19,9 +19,9 @@ export const Brokers = () => {
 
   useEffect(() => {
     setSeo({
-  title: `${fetchedInd.name} — Review, Parameters, and Audits | FalconSpido`,
-  description: fetchedInd.description || `${fetchedInd.name} reviews, parameters, and trust score on FalconSpido.`,
-  path: `/indicators/${fetchedInd.slug}`
+  title: 'Regulated Multi-Asset Broker Comparisons & Fees | FalconSpido',
+  description: 'Audit spread parameters, commission tiers, matching latencies, and regulatory frameworks of premium multi-asset brokers.',
+  path: '/brokers'
 });
 
     const fetchBrokersData = async () => {
