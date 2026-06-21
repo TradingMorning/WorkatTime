@@ -72,9 +72,9 @@ export const Screener = () => {
 
   useEffect(() => {
     setSeo({
-  title: `${fetchedInd.name} — Review, Parameters, and Audits | FalconSpido`,
-  description: fetchedInd.description || `${fetchedInd.name} reviews, parameters, and trust score on FalconSpido.`,
-  path: `/indicators/${fetchedInd.slug}`
+  title: 'Interactive Technical Screener & Momentum Scanner | FalconSpido',
+  description: 'Filter real-time cryptocurrency crossovers, Forex EMA trend indicators, and standard deviations metrics on our live screening grid.',
+  path: '/screener'
 });
 
     const fetchScreener = async () => {
