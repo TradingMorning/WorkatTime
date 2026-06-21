@@ -21,9 +21,9 @@ export const MacroCalendar = () => {
 
   useEffect(() => {
     setSeo({
-  title: `${fetchedInd.name} — Review, Parameters, and Audits | FalconSpido`,
-  description: fetchedInd.description || `${fetchedInd.name} reviews, parameters, and trust score on FalconSpido.`,
-  path: `/indicators/${fetchedInd.slug}`
+  title: 'Global Economic Macro Calendar & Volatility Events | FalconSpido',
+  description: 'Track CPI announcements, interest rate decisions, and high-impact economic indicators that alter volatility in real-time.',
+  path: '/calendar'
 });
 
     const fetchCalendar = async () => {
